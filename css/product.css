@@ -1,0 +1,138 @@
+/* product page style */
+/* nav style starts */
+.nav_bar{
+    position:relative;
+    width:1200px;
+    height:45px;
+    overflow: hidden;
+}
+.nav_bar li{
+    width:200px;
+    line-height: 50px;
+    float:left;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+}
+.nav_bar li:hover{
+    background-color: #FFF0F5;
+}
+/* nav style ends */
+/* delivery style starts */
+.delivery{
+    position:relative;
+    height: 45px;
+    line-height: 45px;
+}
+.set_address{
+    float:left;
+    padding-left: 10px;
+}
+.set_time{
+    float:right;
+    padding-right: 400px;
+}
+/* delivery style ends */
+/* product image style starts */
+.content{
+    height:380px;
+}
+.product_image{
+    float:left;
+    width:300px;
+    height:300px;
+    margin-top:25px;
+    margin-left:200px;
+}
+.product_image img{
+    position:relative;
+    padding:10% 15%;
+} 
+.price_content{
+    float:left;
+    width:400px;
+    height:250px;
+    margin:35px 0 0 120px;
+    border:1px solid black;
+}
+.price_content h3{
+    font-size:30px;
+    padding:10px 15px;
+}
+.price_content p{
+    font-size:20px;
+    padding: 10px 15px;
+}
+.price_int{
+    color:#c81523;
+    font-size:1.9em;
+}
+.price_content button{
+    width:160px;
+    height:50px;
+    background-color: #c81523;
+    text-align: center;
+    border-radius: 0.7em;
+    font-size: 1em;
+    color:#fff;
+    font-weight:bold;
+    margin-top:55px;
+    margin-left:220px;
+    cursor: pointer; 
+}
+.price_content button::after{
+    content:"\e93a";
+    font-family: 'icomoon';
+    padding-left: 2px;
+    color:#fff;
+}
+/* product image style ends */
+/* product description starts */
+.product_desc{
+    /* background-color: #eeeeee; */
+    padding-top:25px;
+}
+.product_detail h2{
+    line-height:40px;
+}
+.product_detail p{
+    font-size: 20px;
+    line-height:30px;
+}
+/* .product_detail a{
+    line-height: 40px;
+    font-size: 20px;
+} */
+/* .more_info{
+    display: none;
+} */
+.nutrition_info{
+    padding-bottom: 10px;
+}
+.nutrition_info h2{
+    line-height:40px;
+    margin-top: 20px;
+}
+/* table style starts */
+table, td, th{
+    border: 1px solid #ddd;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+tr:hover {
+    background-color:#f5f5f5;
+}
+/* table style ends */
+.nutrition_info p{
+    font-size: 20px;
+    line-height:30px;
+}
+/* product description starts */

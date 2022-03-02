@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--import shortcut icon-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--import base css--> 
+    <link rel="stylesheet" href="css/base.css">
+    <!--import common css-->
+    <link rel="stylesheet" href="css/common.css">
+    <!--import register css-->
+    <link rel="stylesheet" href="css/register.css">
+    <!-- import register js -->
+    <script src="js/register.js"></script>
+
+    <title>Register Page</title>
+</head>
+<body>
+    <div class="w">
+        <!-- register page logo starts -->
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+        </header>
+        <!-- register page logo ends -->
+        <div class="registerarea">
+            <h3>New Customer Register 
+                <div class="login">Already have an account, please <a href="login.html">log in</a>
+                </div>
+            </h3>   
+            <div class="reg_form">
+                <form action="#" id="form" method="get"> 
+                    <ul>
+                        <li><label for="">First Name *: </label><input type="text" class="inp">
+                        </li>
+                        <li><label for="">Last Name: </label><input type="text" class="inp"></li>
+                        <li><label for="email">Email *: </label><input type="text" class="inp" id="email">
+                            <p id="s_email" class="emailaddress"></p>
+                        </li>
+                        <li><label for="password">Password *: </label><input type="password" class="inp" id="pwd" placeholder =' 8-16 characters'> 
+                            <img id = "pwdimage" onclick="hideShowPwd(pwdimage, pwd)" src = "images/hidden.png">
+                            <p class="message"> </p>
+                        </li>
+                        <li><label for="">Confirm Password *: </label><input type="password" class="inp" id="c_pwd" placeholder =' 8-16 characters'>
+                            <img id = "c_pwdimage" onclick="hideShowPwd(c_pwdimage, c_pwd)" src = "images/hidden.png">
+                            <p class="c_password"></p>
+                        </li>
+                        <li class="agree"><input type="checkbox" name="" id="">Yes, I have read and accept Fresh Express <a href="#">Terms and Conditions</a></li>
+                        <li><input type="submit" value="Submit" class="btn"></li>
+                    </ul>
+                </form>  
+            </div>    
+        </div>
+        <footer>
+            <div class="mod_copyright">
+                <div class="links">
+                    <a href="#">About Us</a>  |  Contact Us  |  Location & Opening Hours  | Partners  |  Community 
+                </div>
+                <div class="copyriht">
+                    @ Fresh Express Ltd 2022 - All Right Reserved.  |  Privacy at Fresh Express  |  Terms & Conditions  
+                </div>
+            </div>       
+        </footer>
+    </div> 
+    
+</body>
+</html>

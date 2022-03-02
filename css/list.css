@@ -1,0 +1,109 @@
+/* css for list page */
+.w{
+    width:1200px;
+    margin:0 auto;
+}
+.nav{
+    overflow:hidden;
+}
+ /* add hot sales in the header */
+.sk{
+    position:absolute;
+    left:140px;
+    top:50px;
+    border-left:1px solid #c81523;
+    padding: 2px 0 0 15px;
+} 
+/* product list style starts*/
+.sk_list{
+    float:left;
+}
+.sk_list ul li{
+    float:left;
+}
+.sk_list ul li a {
+    display:block;
+    line-height:47px;
+    padding:0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#000;
+}
+.sk_con{
+    float:right;
+}
+.sk_con ul li{
+    float:left;
+}
+.sk_con ul li a{
+    display:block;
+    line-height:49px;
+    padding:0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after{
+    font-family: 'icomoon';
+    content:"\e900";
+}
+.sk_hd ul li{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+.sk_bd ul li{
+    overflow:hidden;
+    float:left;
+    margin:5px 13px 5px 0;
+    width:290px;
+    height:460px;
+    /* border:1px solid transparent; */
+    border:1px solid #ccc;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right:0;
+}
+.sk_bd ul li:hover {
+    border:1px solid #c81523;
+    border-radius: 1em;
+}
+.sk_bd ul li img{
+    position:relative;
+    top:5%;
+    left:14%;
+}
+.sk_bd ul li p{
+    padding: 15%;
+    font-size: large;
+} 
+.price{
+    color:#c81523;
+    font-size:1.875em;
+}
+.sk_bd ul li button{
+    position:relative;
+    left:26%;
+    /* left:calc(50% - 290px / 2); */
+    background-color: #c81523;
+    padding: 0.5em 1.2em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.7em;
+    font-size: 1em;
+    color:#fff;
+    font-weight: 200;
+    margin: 3px auto;
+    cursor: pointer; 
+}  
+.sk_bd ul li button::after{
+    content:"\e93a";
+    font-family: 'icomoon';
+    padding-left: 1px;
+    color:#fff;
+}
+/* product list style ends*/
+/* footer style starts*/ 
+.footer{
+    padding-top: 20px;
+}
